@@ -237,7 +237,7 @@ def onmessage(update,bot:ObigramClient):
     try:
         thread = bot.this_thread
         username = update.message.sender.username
-        tl_admin_user = os.environ.get('tl_admin_user','*')
+        tl_admin_user = os.environ.get('Mr_Wider','MrZetta')
 
         #Descomentar debajo solo si se ba a poner el usuario admin de telegram manual
         #tl_admin_user = '*'
@@ -559,7 +559,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #decomentar abajo y modificar solo si se va a poner el token del bot manual
-    #bot_token = 'BOT TOKEN'
+    #bot_token = '5305623017:AAFR335M_NarHorh_IM0UTlYRB92JJufMM4'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
